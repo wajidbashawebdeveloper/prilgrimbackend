@@ -57,7 +57,7 @@ mongoose.connect(MONGO_URI)
   })
   .catch(err => console.error('MongoDB Connection Error:', err));
 
-const PORT = 5000;
+const PORT = 10000;
 app.listen(PORT, () => {
   console.log(`Star Umrah CRM Backend running on port ${PORT}`);
 });
